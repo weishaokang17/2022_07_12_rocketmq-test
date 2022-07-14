@@ -1,4 +1,4 @@
-package per.wsk.retry;
+package per.wsk.$01;
 
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;

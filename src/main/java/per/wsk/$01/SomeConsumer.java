@@ -1,4 +1,4 @@
-package per.wsk.retry;
+package per.wsk.$01;
 
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
@@ -7,7 +7,6 @@ import org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.common.consumer.ConsumeFromWhere;
 import org.apache.rocketmq.common.message.MessageExt;
-import org.apache.rocketmq.common.protocol.heartbeat.MessageModel;
 import org.junit.Test;
 
 import java.util.List;
@@ -20,7 +19,7 @@ public class SomeConsumer {
     }
 
 
-    @Test
+
     public void test01() throws MQClientException {
         // 定义一个pull消费者
         // DefaultLitePullConsumer consumer = new DefaultLitePullConsumer("cg");
